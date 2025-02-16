@@ -1,0 +1,96 @@
+
+/* * {
+    border: 1px solid red; */ 
+    /*This global border trick is helpful to see the different elements  */
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 191, 191); 
+} 
+/* set the font family and background color for all html files linked to this CSS file */
+
+body {
+    margin: 2rem 5rem;
+
+}
+/* Setting alignment, color and style for all h1 elements */
+h1 {
+    text-align: center;
+    color:darkorchid;
+    text-shadow:2px 2px 2px rgb(231, 133, 202);
+    background-color: rgb(34, 229, 226);
+    border-radius: 1rem;
+}
+/* Setting style for all image elements */
+img {
+    margin: 1rem, 1rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 2px cyan;
+    
+}
+/* setting design for all h2 elements */
+h2 {
+    text-align: center;
+    margin: 4rem auto 1rem auto;
+    background-color: rgb(251, 222, 222);
+}
+p, li {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(251, 222, 222);
+}
+ol, li {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(251, 222, 222);
+}
+h3 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: rgb(251, 222, 222);
+    margin: 2rem 2rem;
+}
+footer {
+    margin: 2rem 0 2rem 0;
+    font-size: smaller;
+    text-align: center;
+    background-color: rgb(251, 222, 222);
+}
+h5 {
+    text-align: center;
+    color: brown;
+}
+
+#table1 {
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(251, 222, 222);
+    border-color: black;
+    border-radius: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+#form1  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(251, 222, 222);
+    text-align: center;
+}
+
+.nobull {
+    list-style: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  button:hover  {
+    background-color: blue;
+    color: white;
+  }

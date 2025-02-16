@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+    <h1>Contact Us</h1>
+<body>
+    <form id="form1">
+        <!-- a form to allow user to enter info  -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" addr="email"><br><br>
+        <label for="message">Message:</label>
+        <textarea name="mesage" id="message" rows="3 cols=4"></textarea><br>
+        <!-- a textarea field to allow multi-line messge input -->
+        <br>
+        <label for="series">Choose your favorite series:</label>
+            <select name="series" id="series">
+                <option value="Mistborn">Mistborn</option>
+                <option value="Stormlight Archive">Stormlight Archive</option>
+                <option value="Secret Projects">Secret Projects</option>
+                <option value="Other">Other</option>
+                <!-- a select form option to show pull-down selection of defined options -->
+            </select>
+            <br><br>
+            <button type="button" onclick="alert('Information Submitted')">Submit</button> <br>
+                <!-- shows a clickable button link which shows a pop-up alert when it is clicked. -->
+            <br>
+        </form><br>
+    <hr>
+    <nav>
+        <h3>Links</h3>
+        <a href="index.html">Home Page</a>
+        <br>
+        <a href="about.html"> About the Cosmere</a>
+        <br>
+        <a href="images.html">Images</a>
+        <h4></h4>
+    </nav>
+    <hr>
+    <footer>
+        The Cosmere and all books characters and settings are property of Brandon Sanderson and Dragonsteel Entertainment. <br>
+        This website is for private use only.
+        <h5>Site last updated Feb 2005</h5>
+    </footer>
+</body>
+</html>
